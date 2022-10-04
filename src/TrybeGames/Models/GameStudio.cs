@@ -7,4 +7,5 @@ public class GameStudio
     public string Name = "";
 
     public DateTime CreatedAt;
+
 }

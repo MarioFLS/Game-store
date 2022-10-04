@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22423.10 (b35bb0ba)",
+        "semanticVersion": "4.3.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 40,
+                  "endLine": 60,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 40,
+                  "endLine": 89,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 40,
+                  "endLine": 114,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        }
+      ],
+      "rules": {
+        "CS0168": {
+          "id": "CS0168",
+          "shortDescription": "A variável foi declarada, mas nunca foi usada",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

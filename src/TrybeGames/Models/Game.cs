@@ -1,7 +1,7 @@
 namespace TrybeGames;
 
 public enum GameType {
-    Action,
+    Action = 1,
     Adventure,
     Puzzle,
     Strategy,
@@ -24,6 +24,7 @@ public class Game
 
     public List<int> Players = new List<int>();
 
+
     public void AddPlayer(Player playerToAdd)
     {
         Players.Add(playerToAdd.Id);
@@ -32,5 +33,10 @@ public class Game
     public void RemovePlayer(Player playerToRemove)
     {
         Players.Remove(playerToRemove.Id);
+    }
+
+    public override string ToString()
+    {
+        return $"Id: {Id}, Game: {Name}, Data: {ReleaseDate}, type: {GameType}, Studio: {DeveloperStudio}";
     }
 }
