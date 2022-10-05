@@ -140,7 +140,7 @@ public class TrybeGamesController
     public void AddGame()
     {
         // implementar
-        int id = database.GameStudios.LastId();
+        int id = database.Games.LastId();
         Console.Write("Digite o nome do Jogo: ");
         string name = Console.ReadLine();
         Console.Write("Digite a data(dd/MM/yyyy) ");

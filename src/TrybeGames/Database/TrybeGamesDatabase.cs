@@ -1,28 +1,37 @@
+using System.Collections.Generic;
+using System.Numerics;
+
 namespace TrybeGames;
 
 public class TrybeGamesDatabase
 {
-    public List<Game> Games = new List<Game>();
+    public List<Game> Games = new();
 
-    public List<GameStudio> GameStudios = new List<GameStudio>();
+    public List<GameStudio> GameStudios = new();
 
-    public List<Player> Players = new List<Player>();
+    public List<Player> Players = new();
 
     public List<Game> GetGamesDevelopedBy(GameStudio gameStudio)
     {
         // implementar
-        throw new NotImplementedException();
+        List<Game> games = Games.Where(gs => gs.DeveloperStudio == gameStudio.Id).ToList();
+        return games;
     }
 
     public List<Game> GetGamesPlayedBy(Player player)
     {
         // Implementar
-        throw new NotImplementedException();
+        List<Game> players = Games.Where(g => g.Players.Select(p => p).Contains(player.Id)).ToList();
+
+        return players;
+        
     }
 
     public List<Game> GetGamesOwnedBy(Player playerEntry)
     {
         // Implementar
-        throw new NotImplementedException();
+        List<Game> games = Games.Where(g => playerEntry.GamesOwned.Contains(g.Id)).ToList();
+
+        return games;
     }
 }

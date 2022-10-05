@@ -6,15 +6,15 @@ namespace System
     {
         public static int LastId(this List<Player> database)
         {
-            return database.Last().Id;
+            return database.OrderBy(i => i.Id).Last().Id + 1;
         }
         public static int LastId(this List<GameStudio> database)
         {
-            return database.Last().Id;
+            return database.OrderBy(i => i.Id).Last().Id + 1;
         }
         public static int LastId(this List<Game> database)
         {
-            return database.Last().Id;
+            return database.OrderBy(i => i.Id).Last().Id + 1;
         }
     }
 }

@@ -6,9 +6,9 @@ public class Player
 
     public string Name = "";
 
-    public List<int> FavoriteGameStudios = new List<int>();
+    public List<int> FavoriteGameStudios = new();
 
-    public List<int> GamesOwned = new List<int>();
+    public List<int> GamesOwned = new();
 
     public void AddGameStudioToFavorites(GameStudio gameStudioToAdd)
     {

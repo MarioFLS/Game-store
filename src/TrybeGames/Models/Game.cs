@@ -1,6 +1,7 @@
 namespace TrybeGames;
 
-public enum GameType {
+public enum GameType
+{
     Action = 1,
     Adventure,
     Puzzle,
@@ -22,7 +23,7 @@ public class Game
 
     public int DeveloperStudio;
 
-    public List<int> Players = new List<int>();
+    public List<int> Players = new();
 
 
     public void AddPlayer(Player playerToAdd)
