@@ -133,7 +133,7 @@ public class TrybeGamesController
         Console.Write("Digite o nome do Estúdio: ");
         string name = Console.ReadLine();
         int id = database.GameStudios.LastId();
-        GameStudio game = new(){ Id = id, Name = name, CreatedAt = DateTime.Now.Date};
+        GameStudio game = new(){ Id = id, Name = name};
         database.GameStudios.Add(game);
     }
 
@@ -144,11 +144,11 @@ public class TrybeGamesController
         Console.Write("Digite o nome do Jogo: ");
         string name = Console.ReadLine();
         Console.Write("Digite a data(dd/MM/yyyy) ");
-        DateTime date = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
+        DateTime date = Convert.ToDateTime(Console.ReadLine(), CultureInfo.InvariantCulture);
 
         GameType gameType = SelectGameTypes();
-        int gameStudio = SelectGameStudio(database.GameStudios).Id;
-        Game game = new() { Id = id, Name = name, ReleaseDate = date, GameType = gameType, DeveloperStudio = gameStudio};
+        //int gameStudio = SelectGameStudio(database.GameStudios).Id;
+        Game game = new() { Id = id, Name = name, ReleaseDate = date, GameType = gameType};
         database.Games.Add(game);
     }
 
@@ -221,7 +221,7 @@ public class TrybeGamesController
         var gameType = Enum.Parse<GameType>(type ?? "7");
 
         var result = int.TryParse(type, out int number);
-        if (!result || number > 7 || number <= 0) return GameType.Other;
+        if (!result || number > 7 || number <= 0) return GameType.Action;
         return gameType;
     }
 
