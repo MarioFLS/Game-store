@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TrybeGames.Test\TrybeGames.Test.csproj" />
+    <ProjectReference Include="..\TrybeGames.Test\Game-store.Test.csproj" />
   </ItemGroup>
 
 </Project>

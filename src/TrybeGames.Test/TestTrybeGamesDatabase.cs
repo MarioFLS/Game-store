@@ -11,7 +11,7 @@ public class TestTrybeGamesDatabase
 {
     [Theory(DisplayName = "Deve testar se GetGamesPlayedBy retorna jogos jogados pela pessoa jogadora corretamente.")]
     [MemberData(nameof(DataTestGetGamesPlayedBy))]
-    public void TestGetGamesPlayedBy(TrybeGamesDatabase databaseEntry, int playerIdEntry, List<Game> expected)
+    public void TestGetGamesPlayedBy(GameStoreDatabase databaseEntry, int playerIdEntry, List<Game> expected)
     {
 
         // Arrange
@@ -26,10 +26,10 @@ public class TestTrybeGamesDatabase
         games.Should().BeEquivalentTo(expected);
     }
 
-    public static TheoryData<TrybeGamesDatabase, int, List<Game>> DataTestGetGamesPlayedBy => new TheoryData<TrybeGamesDatabase, int, List<Game>>
+    public static TheoryData<GameStoreDatabase, int, List<Game>> DataTestGetGamesPlayedBy => new TheoryData<GameStoreDatabase, int, List<Game>>
     {
         {
-            new TrybeGamesDatabase
+            new GameStoreDatabase
             {
                 Games = new List<Game>
                 {
@@ -75,7 +75,7 @@ public class TestTrybeGamesDatabase
 
     [Theory(DisplayName = "Deve testar se GetGamesOwnedBy retorna jogos da pessoa jogadora corretamente.")]
     [MemberData(nameof(DataTestGetGamesOwnedBy))]
-    public void TestGetGamesOwnedBy(TrybeGamesDatabase databaseEntry, int playerIdEntry, List<Game> expected)
+    public void TestGetGamesOwnedBy(GameStoreDatabase databaseEntry, int playerIdEntry, List<Game> expected)
     {
 
         // Arrange
@@ -89,10 +89,10 @@ public class TestTrybeGamesDatabase
         games.Should().BeEquivalentTo(expected);
     }
 
-    public static TheoryData<TrybeGamesDatabase, int, List<Game>> DataTestGetGamesOwnedBy => new TheoryData<TrybeGamesDatabase, int, List<Game>>
+    public static TheoryData<GameStoreDatabase, int, List<Game>> DataTestGetGamesOwnedBy => new TheoryData<GameStoreDatabase, int, List<Game>>
     {
         {
-            new TrybeGamesDatabase
+            new GameStoreDatabase
             {
                 Games = new List<Game>
                 {
@@ -138,7 +138,7 @@ public class TestTrybeGamesDatabase
 
     [Theory(DisplayName = "Deve testar se GetGamesDevelopedBy retorna jogos desenvolvidos pelo estúdio corretamente.")]
     [MemberData(nameof(DataTestGetGamesDevelopedBy))]
-    public void TestGetGamesDevelopedBy(TrybeGamesDatabase databaseEntry, int gameStudioIdEntry, List<Game> expected)
+    public void TestGetGamesDevelopedBy(GameStoreDatabase databaseEntry, int gameStudioIdEntry, List<Game> expected)
     {
 
         // Arrange
@@ -149,10 +149,10 @@ public class TestTrybeGamesDatabase
         games.Should().BeEquivalentTo(expected);
     }
 
-    public static TheoryData<TrybeGamesDatabase, int, List<Game>> DataTestGetGamesDevelopedBy => new TheoryData<TrybeGamesDatabase, int, List<Game>>
+    public static TheoryData<GameStoreDatabase, int, List<Game>> DataTestGetGamesDevelopedBy => new TheoryData<GameStoreDatabase, int, List<Game>>
     {
         {
-            new TrybeGamesDatabase
+            new GameStoreDatabase
             {
                 Games = new List<Game>
                 {

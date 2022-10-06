@@ -18,8 +18,8 @@ public class TestTrybeGamesController
 
         // Mocando função .ReadLine do console para retornar o nome do jogador
         mockConsole.Setup(c => c.ReadLine()).Returns(name);
-        var database = new TrybeGamesDatabase();
-        var controller = new TrybeGamesController(database, mockConsole.Object);
+        var database = new GameStoreDatabase();
+        var controller = new GameStoreController(database, mockConsole.Object);
 
         // Act
         controller.AddPlayer();
@@ -47,8 +47,8 @@ public class TestTrybeGamesController
 
         // Mocando função .ReadLine do console para retornar o nome do jogador
         mockConsole.Setup(c => c.ReadLine()).Returns(name);
-        var database = new TrybeGamesDatabase();
-        var controller = new TrybeGamesController(database, mockConsole.Object);
+        var database = new GameStoreDatabase();
+        var controller = new GameStoreController(database, mockConsole.Object);
 
         // Act
         controller.AddGameStudio();
@@ -76,8 +76,8 @@ public class TestTrybeGamesController
             .Returns(name)
             .Returns(date)
             .Returns(gameType);
-        var database = new TrybeGamesDatabase();
-        var controller = new TrybeGamesController(database, mockConsole.Object);
+        var database = new GameStoreDatabase();
+        var controller = new GameStoreController(database, mockConsole.Object);
 
         // Act
         controller.AddGame();
