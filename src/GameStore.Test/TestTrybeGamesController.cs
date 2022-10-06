@@ -61,7 +61,7 @@ public class TestGameStoreController
     {
         {
             "Jogador 1",
-            new GameStudio(){ Name = "Teste", Id = 1 }
+            new GameStudio(){ Name = "Jogador 1", Id = 1 }
         }
     };
 
@@ -92,7 +92,7 @@ public class TestGameStoreController
             "Zelda",
             "01/01/2020",
             "0",
-            new Game(){ Name = "Teste", Id = 1, ReleaseDate = new DateTime(2020, 01, 01), GameType = GameType.Action }
+            new Game(){ Name = "Zelda", Id = 1, ReleaseDate = new DateTime(2020, 01, 01), GameType = GameType.Action }
         }
     };
 }
