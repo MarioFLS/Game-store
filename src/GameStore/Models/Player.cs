@@ -1,4 +1,4 @@
-namespace TrybeGames;
+namespace GameStore;
 
 public class Player
 {

@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace TrybeGames;
+namespace GameStore;
 public class GameStoreController
 {
     public GameStoreDatabase database;

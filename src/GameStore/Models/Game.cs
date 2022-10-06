@@ -1,4 +1,4 @@
-namespace TrybeGames;
+namespace GameStore;
 
 public enum GameType
 {

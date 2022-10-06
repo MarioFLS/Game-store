@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace TrybeGames;
+namespace GameStore;
 
 public class GameStoreDatabase
 {

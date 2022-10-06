@@ -1,5 +1,5 @@
 ﻿using System;
-using TrybeGames;
+using GameStore;
 
 class People
 {

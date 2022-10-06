@@ -1,10 +1,10 @@
 using Xunit;
 using System;
 using FluentAssertions;
-using TrybeGames;
+using GameStore;
 using Moq;
 
-namespace TrybeGames.Test;
+namespace GameStore.Test;
 
 [Collection("Sequential")]
 public class TestTrybeGamesDatabase

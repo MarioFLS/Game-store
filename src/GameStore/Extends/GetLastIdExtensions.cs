@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using TrybeGames;
+using GameStore;
 
 namespace System
 {

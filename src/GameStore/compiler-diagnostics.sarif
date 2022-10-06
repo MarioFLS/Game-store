@@ -12,81 +12,198 @@
       },
       "results": [
         {
-          "ruleId": "CS0168",
-          "level": "warning",
-          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"GameStore\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Controllers/GameStoreController.cs",
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Extends/GetLastIdExtensions.cs",
                 "region": {
-                  "startLine": 60,
-                  "startColumn": 40,
-                  "endLine": 60,
-                  "endColumn": 49
+                  "startLine": 2,
+                  "startColumn": 7,
+                  "endLine": 2,
+                  "endColumn": 17
                 }
               }
             }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
+          ]
         },
         {
-          "ruleId": "CS0168",
-          "level": "warning",
-          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"GameStore\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Controllers/GameStoreController.cs",
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Program.cs",
                 "region": {
-                  "startLine": 89,
-                  "startColumn": 40,
-                  "endLine": 89,
-                  "endColumn": 49
+                  "startLine": 2,
+                  "startColumn": 7,
+                  "endLine": 2,
+                  "endColumn": 17
                 }
               }
             }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
+          ]
         },
         {
-          "ruleId": "CS0168",
-          "level": "warning",
-          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"GameStoreController\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Controllers/GameStoreController.cs",
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Program.cs",
                 "region": {
-                  "startLine": 114,
-                  "startColumn": 40,
-                  "endLine": 114,
-                  "endColumn": 49
+                  "startLine": 119,
+                  "startColumn": 37,
+                  "endLine": 119,
+                  "endColumn": 56
                 }
               }
             }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"Player\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Extends/GetLastIdExtensions.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 44,
+                  "endLine": 8,
+                  "endColumn": 50
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"GameStoreController\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Program.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 37,
+                  "endLine": 149,
+                  "endColumn": 56
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"GameStoreController\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Program.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 39,
+                  "endLine": 183,
+                  "endColumn": 58
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"GameStoreController\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Program.cs",
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 38,
+                  "endLine": 214,
+                  "endColumn": 57
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"GameStoreController\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Program.cs",
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 36,
+                  "endLine": 242,
+                  "endColumn": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"GameStudio\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Extends/GetLastIdExtensions.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 44,
+                  "endLine": 12,
+                  "endColumn": 54
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"Game\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Extends/GetLastIdExtensions.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 44,
+                  "endLine": 17,
+                  "endColumn": 48
+                }
+              }
+            }
+          ]
         }
       ],
       "rules": {
-        "CS0168": {
-          "id": "CS0168",
-          "shortDescription": "A variável foi declarada, mas nunca foi usada",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+        "CS0246": {
+          "id": "CS0246",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0246)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
             "tags": [
               "Compiler",
-              "Telemetry"
+              "Telemetry",
+              "NotConfigurable"
             ]
           }
         }

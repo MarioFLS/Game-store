@@ -1,13 +1,13 @@
 using Xunit;
 using System;
 using FluentAssertions;
-using TrybeGames;
 using Moq;
+using GameStore;
 
-namespace TrybeGames.Test;
+namespace GameStore.Test;
 
 [Collection("Sequential")]
-public class TestTrybeGamesController
+public class TestGameStoreController
 {
     [Theory(DisplayName = "Deve testar se AddPlayer adiciona uma pessoa jogadora corretamente ao banco de dados.")]
     [MemberData(nameof(DataTestTestAddPlayer))]
