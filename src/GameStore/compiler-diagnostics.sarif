@@ -1,0 +1,318 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22423.10 (b35bb0ba)",
+        "semanticVersion": "4.3.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "O propriedade não anulável 'Name' precisa conter um valor não nulo ao sair do construtor. Considere declarar o propriedade como anulável.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Program.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Program.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 19,
+                  "endLine": 6,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 40,
+                  "endLine": 60,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 40,
+                  "endLine": 89,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "A variável \"exception\" está declarada, mas nunca é usada",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 40,
+                  "endLine": 114,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 16,
+                  "endLine": 193,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 16,
+                  "endLine": 201,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 16,
+                  "endLine": 209,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1050",
+          "level": "note",
+          "message": "Declarar tipos em namespaces",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Contracts/IConsole.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 18,
+                  "endLine": 1,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1050",
+          "level": "note",
+          "message": "Declarar tipos em namespaces",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Helpers/ConsoleWrapper.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 14,
+                  "endLine": 1,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use a propriedade \"Count\" em vez de Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/TrybeGamesController.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 17,
+                  "endLine": 78,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CA1050": {
+          "id": "CA1050",
+          "shortDescription": "Declarar tipos em namespaces",
+          "fullDescription": "Os tipos são declarados em namespaces para impedir colisões de nomes e como uma forma de organizar tipos relacionados em uma hierarquia de objetos.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1050",
+          "properties": {
+            "category": "Design",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1829": {
+          "id": "CA1829",
+          "shortDescription": "Usar a propriedade Length/Count em vez de Count() quando disponível",
+          "fullDescription": "Enumerable.Count() potencialmente enumera a sequência enquanto uma propriedade Length/Count é um acesso direto.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1829",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0168": {
+          "id": "CS0168",
+          "shortDescription": "A variável foi declarada, mas nunca foi usada",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Possível retorno de referência nula.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "O campo não anulável precisa conter um valor não nulo ao sair do construtor. Considere declará-lo como anulável.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
