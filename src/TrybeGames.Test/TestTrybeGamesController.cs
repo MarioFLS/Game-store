@@ -60,7 +60,7 @@ public class TestTrybeGamesController
     public static TheoryData<string, GameStudio> DataTestTestAddGameStudio => new TheoryData<string, GameStudio>
     {
         {
-            "Teste",
+            "Jogador 1",
             new GameStudio(){ Name = "Teste", Id = 1 }
         }
     };
@@ -72,7 +72,6 @@ public class TestTrybeGamesController
         // Arrange
         var mockConsole = new Mock<IConsole>();
 
-        // Mocando função .ReadLine do console para retornar o nome do jogador
         mockConsole.SetupSequence(c => c.ReadLine())
             .Returns(name)
             .Returns(date)
@@ -90,7 +89,7 @@ public class TestTrybeGamesController
     public static TheoryData<string, string, string, Game> DataTestTestAddGame => new TheoryData<string, string, string, Game>
     {
         {
-            "Teste",
+            "Zelda",
             "01/01/2020",
             "0",
             new Game(){ Name = "Teste", Id = 1, ReleaseDate = new DateTime(2020, 01, 01), GameType = GameType.Action }
