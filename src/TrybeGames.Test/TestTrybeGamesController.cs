@@ -31,8 +31,8 @@ public class TestTrybeGamesController
     public static TheoryData<string, Player> DataTestTestAddPlayer => new TheoryData<string, Player>
     {
         {
-            "Teste",
-            new Player(){ Name = "Teste", Id = 1 }
+            "Mario",
+            new Player(){ Name = "Mario", Id = 1 }
         }
     };
 
@@ -61,7 +61,7 @@ public class TestTrybeGamesController
     {
         {
             "Jogador 1",
-            new GameStudio(){ Name = "Teste", Id = 1 }
+            new GameStudio(){ Name = "Jogador 1", Id = 1 }
         }
     };
 
@@ -92,7 +92,7 @@ public class TestTrybeGamesController
             "Zelda",
             "01/01/2020",
             "0",
-            new Game(){ Name = "Teste", Id = 1, ReleaseDate = new DateTime(2020, 01, 01), GameType = GameType.Action }
+            new Game(){ Name = "Zelda", Id = 1, ReleaseDate = new DateTime(2020, 01, 01), GameType = GameType.Action }
         }
     };
 }

@@ -99,7 +99,7 @@ public class TestTrybeGamesDatabase
                     new Game
                     {
                         Id = 1,
-                        Name = "Teste",
+                        Name = "Zelda Ocarina Of Time",
                         DeveloperStudio = 1,
                         Players = new List<int> { 1 }
                     }
@@ -109,7 +109,7 @@ public class TestTrybeGamesDatabase
                     new GameStudio
                     {
                         Id = 1,
-                        Name = "Teste"
+                        Name = "Nintendo"
                     }
                 },
                 Players = new List<Player>
@@ -117,7 +117,7 @@ public class TestTrybeGamesDatabase
                     new Player
                     {
                         Id = 1,
-                        Name = "Teste",
+                        Name = "Player 1",
                         GamesOwned = new List<int> { 1 }
                     }
                 }
@@ -128,7 +128,7 @@ public class TestTrybeGamesDatabase
                 new Game
                 {
                     Id = 1,
-                    Name = "Teste",
+                    Name = "Zelda Ocarina Of Time",
                     DeveloperStudio = 1,
                     Players = new List<int> { 1 }
                 }

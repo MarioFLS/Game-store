@@ -147,7 +147,6 @@ public class TrybeGamesController
         DateTime date = Convert.ToDateTime(Console.ReadLine(), CultureInfo.InvariantCulture);
 
         GameType gameType = SelectGameTypes();
-        //int gameStudio = SelectGameStudio(database.GameStudios).Id;
         Game game = new() { Id = id, Name = name, ReleaseDate = date, GameType = gameType};
         database.Games.Add(game);
     }
