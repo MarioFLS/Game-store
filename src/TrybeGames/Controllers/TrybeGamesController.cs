@@ -120,7 +120,6 @@ public class TrybeGamesController
 
     public void AddPlayer()
     {
-        // implementar
         Console.Write("Digite o seu nome: ");
         string name = Console.ReadLine();
         Player player = new() { Id = database.Players.LastId(), Name = name };
@@ -129,7 +128,6 @@ public class TrybeGamesController
 
     public void AddGameStudio()
     {
-        // implementar
         Console.Write("Digite o nome do Estúdio: ");
         string name = Console.ReadLine();
         int id = database.GameStudios.LastId();
@@ -139,7 +137,6 @@ public class TrybeGamesController
 
     public void AddGame()
     {
-        // implementar
         int id = database.Games.LastId();
         Console.Write("Digite o nome do Jogo: ");
         string name = Console.ReadLine();

@@ -13,14 +13,12 @@ public class TrybeGamesDatabase
 
     public List<Game> GetGamesDevelopedBy(GameStudio gameStudio)
     {
-        // implementar
         List<Game> games = Games.Where(gs => gs.DeveloperStudio == gameStudio.Id).ToList();
         return games;
     }
 
     public List<Game> GetGamesPlayedBy(Player player)
     {
-        // Implementar
         List<Game> players = Games.Where(g => g.Players.Select(p => p).Contains(player.Id)).ToList();
 
         return players;
@@ -29,7 +27,6 @@ public class TrybeGamesDatabase
 
     public List<Game> GetGamesOwnedBy(Player playerEntry)
     {
-        // Implementar
         List<Game> games = Games.Where(g => playerEntry.GamesOwned.Contains(g.Id)).ToList();
 
         return games;
