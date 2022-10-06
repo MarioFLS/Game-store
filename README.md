@@ -3,6 +3,7 @@
 <div align="center"><img alt="Imagem Logo do Projeto" width="500px" src="https://user-images.githubusercontent.com/93008789/194331999-1c28dbf0-62f2-4429-ae38-8787622de3b9.png"></div>
 
 ## Descrição
+Esse projeto foi feito pelo Curso da [Trybe](https://www.betrybe.com/); Qualquer menção ao curso no projeto se dá a esse mootivo.
 
 O Projeto Simula uma loja de compra de jogos, espero que você se divirta bastante!
 
