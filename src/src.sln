@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore", "TrybeGames\GameStore.csproj", "{58522772-6D1B-4753-86BE-48DA26C0DEA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore", "GameStore\GameStore.csproj", "{58522772-6D1B-4753-86BE-48DA26C0DEA4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Test", "TrybeGames.Test\GameStore.Test.csproj", "{F56708FD-FA0B-48F3-B568-E5E7A4963F89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameStore.Test", "GameStore.Test\GameStore.Test.csproj", "{F56708FD-FA0B-48F3-B568-E5E7A4963F89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/GameStoreController.cs",
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Controllers/GameStoreController.cs",
                 "region": {
                   "startLine": 60,
                   "startColumn": 40,
@@ -39,7 +39,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/GameStoreController.cs",
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Controllers/GameStoreController.cs",
                 "region": {
                   "startLine": 89,
                   "startColumn": 40,
@@ -60,7 +60,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/TrybeGames/Controllers/GameStoreController.cs",
+                "uri": "file:///D:/TrybeC%23/acc-csharp-08-project-trybe-games/src/GameStore/Controllers/GameStoreController.cs",
                 "region": {
                   "startLine": 114,
                   "startColumn": 40,
