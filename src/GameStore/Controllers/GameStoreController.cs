@@ -121,8 +121,14 @@ public class GameStoreController
     public void AddPlayer()
     {
         // implementar
+        string name;
+        do
+        {
+            Console.Write("Digite o seu nome: ");
+            name = Console.ReadLine();
+        } while (string.IsNullOrEmpty(name));
+
         Console.Write("Digite o seu nome: ");
-        string name = Console.ReadLine();
         Player player = new() { Id = database.Players.LastId(), Name = name };
         database.Players.Add(player);
     }
@@ -130,8 +136,13 @@ public class GameStoreController
     public void AddGameStudio()
     {
         // implementar
-        Console.Write("Digite o nome do Estúdio: ");
-        string name = Console.ReadLine();
+        string name;
+        do
+        {
+            Console.Write("Digite o nome do Estúdio: ");
+            name = Console.ReadLine();
+        } while (string.IsNullOrEmpty(name));
+        
         int id = database.GameStudios.LastId();
         GameStudio game = new(){ Id = id, Name = name};
         database.GameStudios.Add(game);
