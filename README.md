@@ -28,4 +28,4 @@ Caso uso outra IDE, talvez precise usar o comando `dotnet restore`
 
 Esse projeto apenas simula um banco de dados. Ele não possui um de fato!
 
-Ele não segue as práticas de clean code! Ele é pensado em um projeto de estudos!!! E reconheço a falta de tal!
+Ele não segue as práticas de SOLID! Ele é pensado em um projeto de estudos!!! E reconheço a falta de tal!
