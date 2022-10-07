@@ -23,3 +23,9 @@ O arquivo chamado "GameStore.exe" pode ser executado na sua máquina! Porém, el
 Se estiver usando o visual studio pode apenas dar play! E ela estará pronta para uso;
 
 Caso uso outra IDE, talvez precise usar o comando `dotnet restore`
+
+## :warning: Atenção :warning:
+
+Esse projeto apenas simula um banco de dados. Ele não possui um de fato!
+
+Ele não segue as práticas de clean code! Ele é pensado em um projeto de estudos!!! E reconheço a falta de tal!
