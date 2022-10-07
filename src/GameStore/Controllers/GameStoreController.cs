@@ -141,13 +141,53 @@ public class GameStoreController
     {
         // implementar
         int id = database.Games.LastId();
-        Console.Write("Digite o nome do Jogo: ");
-        string name = Console.ReadLine();
-        Console.Write("Digite a data(dd/MM/yyyy) ");
-        DateTime date = Convert.ToDateTime(Console.ReadLine(), CultureInfo.InvariantCulture);
+        string? name = null;
+        DateTime date = DateTime.Now;
+        bool dateIsNull = false;
+        GameType gameType;
+        System.Console.WriteLine();
 
-        GameType gameType = SelectGameTypes();
-        //int gameStudio = SelectGameStudio(database.GameStudios).Id;
+        do
+        {
+            
+            try
+            {
+                if(string.IsNullOrEmpty(name))
+                {
+                    Console.Write("Digite o nome do Jogo: ");
+                    name = Console.ReadLine();
+                    
+                }
+                if(!dateIsNull)
+                {
+                    Console.Write("Digite a data(dd/MM/yyyy) ");
+                    date = Convert.ToDateTime(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    dateIsNull = true;
+                    System.Console.WriteLine(date);
+                }
+                
+            }
+            catch (Exception)
+
+            {
+                System.Console.WriteLine();
+
+                if (string.IsNullOrEmpty(name))
+                {
+                    System.Console.WriteLine("Digite um nome válido");
+                }
+                if (!dateIsNull)
+                {
+                    dateIsNull = false;
+                    System.Console.WriteLine("Digite uma data válida");
+                    System.Console.WriteLine();
+                }
+                
+            }
+            
+        } while (string.IsNullOrEmpty(name) || !dateIsNull);
+
+        gameType = SelectGameTypes();
         Game game = new() { Id = id, Name = name, ReleaseDate = date, GameType = gameType};
         database.Games.Add(game);
     }

@@ -83,7 +83,7 @@ public class TestGameStoreController
         controller.AddGame();
 
         // Assert
-        controller.database.Games[0].Should().BeEquivalentTo(expected);
+        controller.database.Games.Should().ContainEquivalentOf(expected);
     }
 
     public static TheoryData<string, string, string, Game> DataTestTestAddGame => new TheoryData<string, string, string, Game>
